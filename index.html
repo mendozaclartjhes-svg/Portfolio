@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mendoza, Clart Jhes N. | Portfolio</title>
+  <meta name="description" content="TODO: one-sentence description of you and your work" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Clart Jhes N. Mendoza</h1>
+        <h2>BS Information Technology Student</h2>
+        <p>
+          I'm a 3rd year BS Information Technology student at Bulacan State University
+          with a growing interest in networking and web development. I enjoy building
+          simple websites and systems, and I'm currently learning Python. I'm looking
+          forward to growing my skills through hands-on projects.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/profile.jpg" alt="Photo of Your Name"
+             onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');" />
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>VS Code</li>
+        <li>GitHub</li>
+        <li>XML</li>
+        <li>Firebase</li>
+      </ul>
+    </section>
+
+    <section class="section container" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-img"><img src="images/proj-1.jpg" alt="Project 1 Screenshot"></div>
+          <div class="card-body">
+            <h3>WST Project</h3>
+            <p>A student management system built with HTML, PHP, and XML.</p>
+            <p class="tags">HTML &bull; PHP &bull; XML</p>
+            <a href="https://github.com/mendozaclartjhes-svg/WST-Project_Russel-Rodriguez---Clart-Mendoza.git" class="link" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img src="images/proj-2.png" alt="Project 2 Screenshot"></div>
+          <div class="card-body">
+            <h3>Veterinary Webpage</h3>
+            <p>A template website for a local veterinary clinic.</p>
+            <p class="tags">HTML &bull; CSS</p>
+            <a href="https://mendozaclartjhes-svg.github.io/Lesson-1_Activity-3/" class="link" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img src="images/proj-3.png" alt="Project 3 Screenshot"></div>
+          <div class="card-body">
+            <h3>Community Pokedex</h3>
+            <p>A project created to showcase a collection of Pokémon cards using React and Firebase.</p>
+            <p class="tags">React &bull; CSS &bull; JavaScript &bull; Firebase Hosting</p>
+            <a href="https://pokemonfirebase-90584.web.app/" class="link" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>Want to work together or just say hi? Reach me here:</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:mendozaclartjhes@gmail.com">mendozaclartjhes@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/mendozaclartjhes-svg" target="_blank" rel="noopener">github.com/mendozaclartjhes-svg</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Clart Jhes N. Mendoza. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Your Name</title>
+  <meta name="description" content="TODO: about page description" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="section container">
+      <h1 class="section-title">About Me</h1>
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="images/profile.jpg" alt="Photo of Your Name"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');" />
+        </div>
+        <div>
+          <p>I'm a 3rd year IT student from Pampanga who enjoys networking and building websites.</p>
+          </p>
+          <ul class="facts">
+            <li><strong>Interests:</strong> Networking, Web development</li>
+            <li><strong>Currently learning:</strong> Python, PyCharm</li>
+            <li><strong>Languages:</strong> English, Filipino, Kapampangan</li>
+            <li><strong>Hobbies:</strong> Gaming, music, reading, sports</li>
+            <li><strong>Location:</strong> San Simon, Pampanga</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="date">2024 &ndash; Present</p>
+          <h3>Bulacan State University (College)</h3>
+          <p>BS in Information Technology, College of Information and Communications Technology</p>
+        </div>
+        <div class="timeline-item">
+          <p class="date">2022 &ndash; 2024</p>
+          <h3>La Verdad Christian College, Inc. (Senior High School)</h3>
+          <p>STEM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2 class="section-title">Experience &amp; Achievements</h2>
+      <ul class="plain-list">
+        <!-- TODO: certifications, org memberships, awards, etc. -->
+        <li>Salesforce Agentblazer Champion Workshop</li>
+        <li>Getting Started with Cisco Packet Tracer</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Your Full Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
